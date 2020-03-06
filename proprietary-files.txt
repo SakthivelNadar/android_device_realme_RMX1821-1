@@ -825,6 +825,7 @@ vendor/lib64/libarcsoft_smart_denoise.so
 # Camera-configs
 vendor/etc/camera/attribute.model
 vendor/etc/camera/cache_data
+vendor/etc/camera/license.lic
 vendor/etc/camera/megviisegment_model
 vendor/etc/camera/model_mdl_cache
 
