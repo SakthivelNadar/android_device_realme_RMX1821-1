@@ -9,7 +9,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/umidigi/F1/F1-vendor.mk)
+$(call inherit-product-if-exists, vendor/realme/RMX1821/RMX1821-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -59,7 +59,7 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    DummyOverlay
+    overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
